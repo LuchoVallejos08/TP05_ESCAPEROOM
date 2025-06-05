@@ -1,0 +1,133 @@
+{
+  "Files": [
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\DoctorOctopus.png",
+      "PackagePath": "staticwebassets\\imagenes\\DoctorOctopus.png"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\DoctorOctopusPrincipal.png",
+      "PackagePath": "staticwebassets\\imagenes\\DoctorOctopusPrincipal.png"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\ElectroCorrecta.png",
+      "PackagePath": "staticwebassets\\imagenes\\ElectroCorrecta.png"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\MisterioCorrecta.png",
+      "PackagePath": "staticwebassets\\imagenes\\MisterioCorrecta.png"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\MisterioPrincipal.png",
+      "PackagePath": "staticwebassets\\imagenes\\MisterioPrincipal.png"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\SandmanCorrecto.png",
+      "PackagePath": "staticwebassets\\imagenes\\SandmanCorrecto.png"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\SandmanPrincipal.png",
+      "PackagePath": "staticwebassets\\imagenes\\SandmanPrincipal.png"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\Thumbs.db",
+      "PackagePath": "staticwebassets\\imagenes\\Thumbs.db"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\VenomCorrecta.png",
+      "PackagePath": "staticwebassets\\imagenes\\VenomCorrecta.png"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\VenomPrincipal.png",
+      "PackagePath": "staticwebassets\\imagenes\\VenomPrincipal.png"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\electroPrincipal.png",
+      "PackagePath": "staticwebassets\\imagenes\\electroPrincipal.png"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\normanosborncorrecto.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\normanosborncorrecto.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\normanosbornprincipal.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\normanosbornprincipal.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TP05_EscapeRoomSpiderman.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TP05_EscapeRoomSpiderman.props",
+      "PackagePath": "build\\TP05_EscapeRoomSpiderman.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TP05_EscapeRoomSpiderman.props",
+      "PackagePath": "buildMultiTargeting\\TP05_EscapeRoomSpiderman.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TP05_EscapeRoomSpiderman.props",
+      "PackagePath": "buildTransitive\\TP05_EscapeRoomSpiderman.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
