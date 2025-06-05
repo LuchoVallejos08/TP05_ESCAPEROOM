@@ -18,8 +18,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = Z:\2025\Prog\TP05_EscapeRoomSpiderman
 build_property._RazorSourceGeneratorDebug = 
 
+[Z:/2025/Prog/TP05_EscapeRoomSpiderman/Views/Home/Final.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5hbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [Z:/2025/Prog/TP05_EscapeRoomSpiderman/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/2025/Prog/TP05_EscapeRoomSpiderman/Views/Home/Sala1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/2025/Prog/TP05_EscapeRoomSpiderman/Views/Home/Sala2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/2025/Prog/TP05_EscapeRoomSpiderman/Views/Home/Sala3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/2025/Prog/TP05_EscapeRoomSpiderman/Views/Home/Sala4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/2025/Prog/TP05_EscapeRoomSpiderman/Views/Home/Sala5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhNS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/2025/Prog/TP05_EscapeRoomSpiderman/Views/Home/Sala6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYWxhNi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [Z:/2025/Prog/TP05_EscapeRoomSpiderman/Views/Shared/_Layout.cshtml]

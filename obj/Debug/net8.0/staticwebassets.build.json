@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wU9PPaDY1l0GeYsWfcKI+KYS3QWhfn2nfRRHQmWY4LM=",
+  "Hash": "OmLATCf5RIy6pDF6S63DRjjoCeYqIy0eEfZpAycxlwg=",
   "Source": "TP05_EscapeRoomSpiderman",
   "BasePath": "_content/TP05_EscapeRoomSpiderman",
   "Mode": "Default",
@@ -131,6 +131,25 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\electroPrincipal.png"
     },
     {
+      "Identity": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\imagen.webp",
+      "SourceId": "TP05_EscapeRoomSpiderman",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\",
+      "BasePath": "_content/TP05_EscapeRoomSpiderman",
+      "RelativePath": "imagenes/imagen.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\imagen.webp"
+    },
+    {
       "Identity": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\MisterioCorrecta.png",
       "SourceId": "TP05_EscapeRoomSpiderman",
       "SourceType": "Discovered",
@@ -243,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\SandmanPrincipal.png"
+    },
+    {
+      "Identity": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\spiderman_inicio.webp",
+      "SourceId": "TP05_EscapeRoomSpiderman",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\",
+      "BasePath": "_content/TP05_EscapeRoomSpiderman",
+      "RelativePath": "imagenes/spiderman_inicio.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\spiderman_inicio.webp"
     },
     {
       "Identity": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\Thumbs.db",

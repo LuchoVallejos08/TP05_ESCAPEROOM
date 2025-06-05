@@ -53,12 +53,20 @@
       "PackagePath": "staticwebassets\\imagenes\\electroPrincipal.png"
     },
     {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\imagen.webp",
+      "PackagePath": "staticwebassets\\imagenes\\imagen.webp"
+    },
+    {
       "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\normanosborncorrecto.jpg",
       "PackagePath": "staticwebassets\\imagenes\\normanosborncorrecto.jpg"
     },
     {
       "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\normanosbornprincipal.jpg",
       "PackagePath": "staticwebassets\\imagenes\\normanosbornprincipal.jpg"
+    },
+    {
+      "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\imagenes\\spiderman_inicio.webp",
+      "PackagePath": "staticwebassets\\imagenes\\spiderman_inicio.webp"
     },
     {
       "Id": "Z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\wwwroot\\js\\site.js",

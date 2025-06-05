@@ -17,4 +17,27 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult Jugar()
+    {
+        SalaEscape Sala = new SalaEscape();
+        HttpContext.Session.SetString("Escape", Objeto.ObjectToString(Sala)); 
+        return View("Sala1");
+    }
+    public IActionResult ResolverSala(string Clave){
+        SalaEscape Sala = Objeto.StringToObject<SalaEscape>(HttpContext.Session.GetString("Escape"));
+        Sala.compararRespuesta("hola");
+        HttpContext.Session.SetString("Escape", Objeto.ObjectToString(Sala)); 
+        return View("Sala"+ Sala.numeroSala);
+    }
+    
+    
+        [HttpPost]
+        public IActionResult login  (string respuesta) {
+            ViewBag.Respuesta = respuesta;
+            return View("bienvenido");
+
+        }
+
+
+    
 }

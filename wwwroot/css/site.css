@@ -12,7 +12,15 @@ html {
 body {
   margin: 10px;
   padding: 10px;
+  
 }
+
+.INDEX {
+  background-image: url('../imagenes/spiderman_inicio.webp');
+  background-size: cover;
+}
+
+
 
 
 footer {

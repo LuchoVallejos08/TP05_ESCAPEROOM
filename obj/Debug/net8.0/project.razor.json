@@ -19339,6 +19339,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\Views\\Home\\Sala5.cshtml",
+      "TargetPath": "Views\\Home\\Sala5.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "z:\\2025\\Prog\\TP05_EscapeRoomSpiderman\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
