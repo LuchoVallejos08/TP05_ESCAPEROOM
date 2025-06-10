@@ -1,5 +1,11 @@
-<main class="1"> 
+<body class="sala1">
+<main> 
     <h1>el duende verde ha eScondido Una boMba en oscorp. solo se desactivA con un código secreto.</h1>
     <h2>"La fórmula está en los nombres: Osborn, Harry, Norman"</h2>
+    <form action='@Url.Action("ResolverSala","Home")' method="post">
+    Codigo: <input type ="text" name ="codigo">
+    <input type="submit" value = "Enviar">
+    </form>
     <img src="/Imagenes/imagen.webp" title="Este es el mensaje que aparece al pasar el mouse">
 </main>
+</body>

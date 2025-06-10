@@ -23,21 +23,28 @@ public class HomeController : Controller
         HttpContext.Session.SetString("Escape", Objeto.ObjectToString(Sala)); 
         return View("Sala1");
     }
-    public IActionResult ResolverSala(string Clave){
+
+    [HttpPost]
+    public IActionResult ResolverSala(string codigo){
         SalaEscape Sala = Objeto.StringToObject<SalaEscape>(HttpContext.Session.GetString("Escape"));
-        Sala.compararRespuesta("hola");
+        Sala.compararRespuesta(codigo);
         HttpContext.Session.SetString("Escape", Objeto.ObjectToString(Sala)); 
         return View("Sala"+ Sala.numeroSala);
     }
     
     
         [HttpPost]
-        public IActionResult login  (string respuesta) {
+        public IActionResult Pregunta  (string respuesta) {
             ViewBag.Respuesta = respuesta;
-            return View("bienvenido");
+            return View("b");
 
         }
+[HttpPost]
+        public IActionResult Pregunta  (string Code) {
+            ViewBag.CodigoS = Code;
+            return View("Venom");
 
+        }
 
     
 }
