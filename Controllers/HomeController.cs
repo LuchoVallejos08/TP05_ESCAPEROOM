@@ -34,13 +34,13 @@ public class HomeController : Controller
     
     
         [HttpPost]
-        public IActionResult Pregunta  (string respuesta) {
+        public IActionResult Pregunta5  (string respuesta) {
             ViewBag.Respuesta = respuesta;
             return View("b");
 
         }
 [HttpPost]
-        public IActionResult Pregunta  (string Code) {
+        public IActionResult Pregunta6  (string Code) {
             ViewBag.CodigoS = Code;
             return View("Venom");
 

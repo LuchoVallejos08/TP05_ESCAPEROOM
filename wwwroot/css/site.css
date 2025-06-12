@@ -20,6 +20,27 @@ body {
   background-size: cover;
 }
 
+.sala1 section{
+  height: 90%;
+  background-image: url('/imagenes/fondoSala1.jpeg');
+  background-size: cover;
+}
+.sala1 img{
+  border: 1px solid black;
+  width: 10%;
+}
+.sala1 img:hover{
+  box-shadow: 2px 2px 2px rgb(182, 181, 181);
+}
+
+
+
+
+
+.sala3{
+  background-image: url(../imagenes/);
+}
+
 
 
 
