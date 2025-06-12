@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\imagenes\\electroPrincipal.png"
     },
     {
+      "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\fondoSala1.jpeg",
+      "PackagePath": "staticwebassets\\imagenes\\fondoSala1.jpeg"
+    },
+    {
       "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\imagen.webp",
       "PackagePath": "staticwebassets\\imagenes\\imagen.webp"
     },

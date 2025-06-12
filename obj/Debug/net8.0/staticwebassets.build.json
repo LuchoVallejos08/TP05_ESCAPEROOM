@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Odmr0S75q2BSyp4LG9v0q7BPwoiSeM8oTgILzL7OgZE=",
+  "Hash": "fe7HTwhKDNtbwr9uJ99p41HF0ruzbtUe8s2OFrl93rk=",
   "Source": "TP05_EscapeRoomSpiderman",
   "BasePath": "_content/TP05_EscapeRoomSpiderman",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\electroPrincipal.png"
+    },
+    {
+      "Identity": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\fondoSala1.jpeg",
+      "SourceId": "TP05_EscapeRoomSpiderman",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\",
+      "BasePath": "_content/TP05_EscapeRoomSpiderman",
+      "RelativePath": "imagenes/fondoSala1.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\fondoSala1.jpeg"
     },
     {
       "Identity": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\imagen.webp",
