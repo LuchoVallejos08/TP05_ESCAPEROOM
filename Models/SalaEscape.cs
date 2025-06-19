@@ -11,18 +11,21 @@ public class SalaEscape
     public SalaEscape(){
     numeroSala = 1;
     respuesta[0]="80";
-    respuesta[1]="O";
-    respuesta[2]="O";
-    respuesta[3]="O";
+    respuesta[1]="octavious";
+    respuesta[2]="2";
+    respuesta[3]="electro";
     respuesta[4]="O";
     respuesta[5]="O";
 }
-public void compararRespuesta(string ingreso)
+public bool compararRespuesta(string ingreso)
 {
+    bool aux = false;
+    ingreso=ingreso.ToLower();
     if (ingreso == respuesta[numeroSala-1]){
         numeroSala++;
+    aux = true;
     }
+    return aux;
 }
-
 }
 

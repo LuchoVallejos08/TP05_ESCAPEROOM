@@ -2,18 +2,15 @@
 <main> 
     <h1>el duende verde ha eScondido Una boMba en oscorp. solo se desactivA con un código secreto.</h1>
     <h2><b>OJO</b> CON LA FÓRMULA CLAVE: "Osborn, Harry, Norman"</h2>
-    
     <form action='@Url.Action("ResolverSala","Home")' method="post">
     Codigo: <input type ="text" name ="codigo">
     <input type="submit" value = "Enviar">
     </form>
-
+    <h3>@ViewBag.MensajeError</h3>
     <section>
     <img src="/imagenes/png.png" title="O=22" class = "O">
     <img src="/imagenes/png.png" title="H=13" class = "H">
     <img src="/imagenes/png.png" title="N=45" class = "N">
-
-
     </section>
 </main>
 </body>

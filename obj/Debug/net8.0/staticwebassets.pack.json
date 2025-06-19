@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\imagenes\\MisterioCorrecta2.png"
     },
     {
+      "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\MisterioIncorrecta.png",
+      "PackagePath": "staticwebassets\\imagenes\\MisterioIncorrecta.png"
+    },
+    {
       "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\MisterioInorrecta.png",
       "PackagePath": "staticwebassets\\imagenes\\MisterioInorrecta.png"
     },
@@ -57,6 +61,10 @@
       "PackagePath": "staticwebassets\\imagenes\\VenomPrincipal.png"
     },
     {
+      "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\arena.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\arena.jpg"
+    },
+    {
       "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\blanco.jpg",
       "PackagePath": "staticwebassets\\imagenes\\blanco.jpg"
     },
@@ -83,6 +91,10 @@
     {
       "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\png.png",
       "PackagePath": "staticwebassets\\imagenes\\png.png"
+    },
+    {
+      "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\rayos.jfif",
+      "PackagePath": "staticwebassets\\imagenes\\rayos.jfif"
     },
     {
       "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\sala1_hover.jpg",

@@ -1,29 +1,31 @@
+<div class="Sala5">
+<h1>click en el boton de abajo para ver el acertijo para pasar a la siguiente sala!</h1>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  Launch static backdrop modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Click aqui para ver el acertijo!
+  </button>
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action = '@Url.Action("ResolverSala", "Home")' method = "post">
+          <div class="modal-body">
+              escriba en el formulario a,b o c dependiendo de que imagen eligieron (a es la primera. b la segunda y C la tercera).
+              Contraseña: <input type="text" name="Respuesta">
+              <img src="/imagenes/MisterioIncorrecta.png" alt="Opcion a"/>
+              <img src="/imagenes/MisterioCorrecta2.png" alt="opcion b"/>
+              <img src="/imagenes/MisterioIncorrecta.png" alt="opcion c"/>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary" value="Enviar Respuesta">
+          </div>
+        </form>
       </div>
-      <form action = '@Url.Action("Contraseña")' method = post> 
-        <div class="modal-body">
-            escriba en el formulario a,b o c dependiendo de que imagen eligieron (a es la primera. b la segunda y C la tercera).
-            Contraseña: <input type="text" name="Respuesta">
-            <img src="/imagenes/MisterioIncorrecta.png" alt="ImagenesTrampaYcorrectas"/>>
-            <img src="/imagenes/MisterioCorrecta2.png" alt="ImagenesTrampaYcorrectas"/>>
-            <img src="/imagenes/MisterioIncorrecta.png" alt="ImagenesTrampaYcorrectas"/>>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-primary" value="Enviar Respuesta">
-        </div>
-      </form>
     </div>
   </div>
 </div>

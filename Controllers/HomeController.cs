@@ -27,7 +27,10 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult ResolverSala(string codigo){
         SalaEscape Sala = Objeto.StringToObject<SalaEscape>(HttpContext.Session.GetString("Escape"));
-        Sala.compararRespuesta(codigo);
+        bool ok= Sala.compararRespuesta(codigo);
+        if(ok==false){
+            ViewBag.MensajeError="INCORRECTO, REINTENTELO";
+        }
         HttpContext.Session.SetString("Escape", Objeto.ObjectToString(Sala)); 
         return View("Sala"+ Sala.numeroSala);
     }
