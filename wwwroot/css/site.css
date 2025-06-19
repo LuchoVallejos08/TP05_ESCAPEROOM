@@ -20,22 +20,73 @@ body {
   background-size: cover;
 }
 
-.sala1 section{
+.sala1 {
   background-image: url('/imagenes/fondoSala1.jpeg');
   background-size: cover;
 }
+.sala1 h1{
+  color: white;
+  text-shadow: 2px 0 #3cff00, -2px 0 #3cff00, 0 2px #3cff00, 0 -2px #3cff00,
+  1px 1px #3cff00, -1px -1px #3cff00, 1px -1px #3cff00, -1px 1px #3cff00;
+  text-align: center;
+
+
+
+}
+.sala1 h2{
+  color: #3cff00;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+  1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+  text-align: center;
+
+}
+
+.sala1 b{
+  font-weight: 799;
+}
+
 .sala1 img{
-  /*border: 1px solid black;
-  */width: 10%;
+  width: 8%;
+
 }
 .sala1 img:hover{
   box-shadow: 1px 1px 1px rgb(37, 37, 37);
   border: none;
 }
-
 .sala1 form{
-  margin-top: 40%;
+  margin-top: 0%;
+  margin-bottom: 0%;  
 }
+.O{
+  margin-left: 28%;
+  margin-top: 15%;
+}
+.H{
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.N{
+  margin-top: -10%;
+}
+
+
+
+.sala2 iframe{
+  width: 50%;
+  margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

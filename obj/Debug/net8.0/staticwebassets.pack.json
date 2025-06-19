@@ -81,8 +81,20 @@
       "PackagePath": "staticwebassets\\imagenes\\normanosbornprincipal.jpg"
     },
     {
+      "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\png.png",
+      "PackagePath": "staticwebassets\\imagenes\\png.png"
+    },
+    {
+      "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\sala1_hover.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\sala1_hover.jpg"
+    },
+    {
       "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\spiderman_inicio.webp",
       "PackagePath": "staticwebassets\\imagenes\\spiderman_inicio.webp"
+    },
+    {
+      "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\transparente.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\transparente.jpg"
     },
     {
       "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\js\\site.js",
