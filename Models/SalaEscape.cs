@@ -7,15 +7,15 @@ public class SalaEscape
     public int numeroSala{get; private set;}
 
     [JsonProperty]
-    private string [] respuesta = new string [6];
+    private string [] respuesta = new string [4];
     public SalaEscape(){
     numeroSala = 1;
     respuesta[0]="80";
     respuesta[1]="octavious";
     respuesta[2]="2";
     respuesta[3]="electro";
-    respuesta[4]="O";
-    respuesta[5]="O";
+    /*respuesta[4]="b";
+    respuesta[5]="O";*/
 }
 public bool compararRespuesta(string ingreso)
 {

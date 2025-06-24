@@ -1,4 +1,29 @@
 <body class="sala4">
+<p>USTED ESTÁ EN LA SALA @ViewBag.salaActual</p>
+<div id="reloj-digital">
+    Tiempo: <span id="timer"></span>
+</div>
+
+<style>
+    #reloj-digital {
+        position: fixed;
+        top: 10px;
+        right: 20px;
+        background-color: #222;
+        color: #0f0;
+        font-family: 'Courier New', monospace;
+        font-size: 18px;
+        padding: 6px 12px;
+        border-radius: 8px;
+        z-index: 1000;
+        box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+</style>
+<script>
+    const tiempoFinal = sessionStorage.getItem("tiempoTotal") || 0;
+    console.log("Tiempo final enviado:", tiempoFinal);
+    window.location.href = "/Home/ResultadoFinal?tiempo=" + tiempoFinal;
+</script>
 <main class="4">
     <form action='@Url.Action("ResolverSala","Home")' method="post">
     ¿Quien es el villano de esta sala? : <input type ="text" name ="codigo">
