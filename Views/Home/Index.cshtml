@@ -1,56 +1,21 @@
 ﻿@{
     ViewData["Title"] = "Index";
 }
+<script>
+    localStorage.removeItem("tiempoSalaEscape");
+</script>
 
 <body class = "INDEX">
-<div id="reloj-digital">
-    Tiempo: <span id="timer">00:00</span>
-</div>
-
-<style>
-    #reloj-digital {
-        position: fixed;
-        top: 10px;
-        right: 20px;
-        background-color: #222;
-        color: #0f0;
-        font-family: 'Courier New', monospace;
-        font-size: 18px;
-        padding: 6px 12px;
-        border-radius: 8px;
-        z-index: 1000;
-        box-shadow: 0 0 10px rgba(0,0,0,0.4);
-    }
-</style>
-
-<script>
-window.onload = function() {
-    let totalSegundos = parseInt(sessionStorage.getItem("tiempoTotal")) || 0;
-    console.log("Tiempo inicial:", totalSegundos); // <-- Acá
-
-    function actualizarReloj() {
-        totalSegundos++;
-        sessionStorage.setItem("tiempoTotal", totalSegundos);
-
-        const minutos = Math.floor(totalSegundos / 60).toString().padStart(2, '0');
-        const segundos = (totalSegundos % 60).toString().padStart(2, '0');
-        document.getElementById("timer").textContent = `${minutos}:${segundos}`;
-    }
-
-    actualizarReloj();
-    setInterval(actualizarReloj, 1000);
-};
-</script>
 <h1>Bienvenidos a la Sala de Escape de Spider-man Vs Los Seis Siniestros</h1>
 
 <h2>Para comenzar el juego ingresa al siguiente enlace</h2>
 
 <h2>Ingresá tu nombre antes de comenzar</h2>
 
-<form asp-action="JugarConNombre" method="post">
-    <input type="text" name="nombre" required placeholder="Tu nombre">
-    <button type="submit">Comenzar juego</button>
-</form>
+    <form action='@Url.Action("Jugar","Home")' method="post">
+    Nombre: <input type ="text" name ="nombre">
+    <input type="submit" value = "Enviar">
+    </form>
 
 
 </body>

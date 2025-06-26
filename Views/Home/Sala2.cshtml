@@ -1,42 +1,6 @@
 <body class="sala2">
 <p>USTED ESTÁ EN LA SALA @ViewBag.salaActual</p>
-<div id="reloj-digital">
-    Tiempo: <span id="timer"></span>
-</div>
 
-<style>
-    #reloj-digital {
-        position: fixed;
-        top: 10px;
-        right: 20px;
-        background-color: #222;
-        color: #0f0;
-        font-family: 'Courier New', monospace;
-        font-size: 18px;
-        padding: 6px 12px;
-        border-radius: 8px;
-        z-index: 1000;
-        box-shadow: 0 0 10px rgba(0,0,0,0.4);
-    }
-</style>
-<script>
-window.onload = function() {
-    let totalSegundos = parseInt(sessionStorage.getItem("tiempoTotal")) || 0;
-    console.log("Tiempo inicial:", totalSegundos); // <-- Acá
-
-    function actualizarReloj() {
-        totalSegundos++;
-        sessionStorage.setItem("tiempoTotal", totalSegundos);
-
-        const minutos = Math.floor(totalSegundos / 60).toString().padStart(2, '0');
-        const segundos = (totalSegundos % 60).toString().padStart(2, '0');
-        document.getElementById("timer").textContent = `${minutos}:${segundos}`;
-    }
-
-    actualizarReloj();
-    setInterval(actualizarReloj, 1000);
-};
-</script>
 <main class="2"> 
     <h1> Doc Ock mezcló químicos en el laboratorio. Solo una combinación abre la compuerta. Las primeras en descubrirlas son las importantes. </h1>
     <iframe allow="fullscreen; autoplay; allow-top-navigation-by-user-activation" allowfullscreen width="795" height="690" frameborder="0" src="https://es.educaplay.com/juego/24236546-hola_como_estas.html"></iframe>

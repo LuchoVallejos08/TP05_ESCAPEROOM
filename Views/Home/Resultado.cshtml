@@ -1,27 +1,9 @@
 
-<h2>¡Felicitaciones, @ViewBag.Nombre!</h2>
-<p>Terminaste en un tiempo de <strong>@ViewBag.Tiempo</strong></p>
-<p>Tu puesto en el ranking es: <strong>@ViewBag.Puesto</strong></p>
-
-<h3>Ranking:</h3>
-<table>
-    <thead>
-        <tr><th>Puesto</th><th>Nombre</th><th>Tiempo</th></tr>
-    </thead>
-    <tbody>
-        @for(int i = 0; i < ((List<Jugador>)ViewBag.Ranking).Count; i++)
-        {
-            var jugador = ((List<Jugador>)ViewBag.Ranking)[i];
-            string tiempoJugador = $"{jugador.TiempoSegundos / 60:D2}:{jugador.TiempoSegundos % 60:D2}";
-            <tr>
-                <td>@(i + 1)</td>
-                <td>@jugador.Nombre</td>
-                <td>@tiempoJugador</td>
-            </tr>
-        }
-    </tbody>
-</table>
-
-<script>
-    sessionStorage.clear(); // limpiar timer
-</script>
+@{
+    int i = 1;
+@foreach(Jugador jugador in Ranking.Leaderboard){
+    <h2> @i: @jugador.nombre</h2>
+    i += i;
+}
+    
+}

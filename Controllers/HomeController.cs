@@ -21,9 +21,14 @@ public class HomeController : Controller
 
 
     [HttpPost]
-    public IActionResult JugarConNombre(string nombre)
+    public IActionResult Jugar(string nombre)
     {
-        TempData["NombreJugador"] = nombre;
+        DateTime ahora = DateTime.Now;
+        double segundos = ahora.Hour * 3600 + ahora.Minute * 60 + ahora.Second + ahora.Millisecond / 1000.0;
+
+        Jugador jugador = new Jugador(nombre, segundos);
+        HttpContext.Session.SetString("Jugador", Objeto.ObjectToString(jugador)); 
+
         SalaEscape Sala = new SalaEscape();
         HttpContext.Session.SetString("Escape", Objeto.ObjectToString(Sala)); 
         ViewBag.salaActual = Sala.numeroSala;
@@ -41,49 +46,25 @@ public class HomeController : Controller
         }
         else if (Sala.numeroSala == 4)
         {
-        return RedirectToAction("ResultadoFinal");
+        return RedirectToAction("Rankear");
         }
         HttpContext.Session.SetString("Escape", Objeto.ObjectToString(Sala)); 
         ViewBag.salaActual = Sala.numeroSala;
         return View("Sala"+ Sala.numeroSala);
     }
     
-public IActionResult ResultadoFinal()
-{
-        var tiempoStr = HttpContext.Request.Query["tiempo"].ToString();
-    System.Diagnostics.Debug.WriteLine($"Valor recibido en query 'tiempo': '{tiempoStr}'");
+    public IActionResult Rankear(){
+        Jugador jugador = Objeto.StringToObject<Jugador>(HttpContext.Session.GetString("Jugador"));
+        DateTime ahora = DateTime.Now;
+        double segundos = ahora.Hour * 3600 + ahora.Minute * 60 + ahora.Second + ahora.Millisecond / 1000.0;
+
+        jugador.tiempo = (segundos - jugador.tiempo);
+
+        Ranking.agregarJugador(jugador);
+        
+        return View("Resultado");
 
 
-    string nombre = TempData["NombreJugador"]?.ToString() ?? "Anónimo";
-    int tiempo = 0;
-
-    // Intentar obtener el tiempo de la query string
-    if (!int.TryParse(HttpContext.Request.Query["tiempo"], out tiempo))
-    {
-        tiempo = 0; // valor por defecto si no viene o no es válido
     }
-
-    // Crear jugador y agregar al ranking
-    Jugador jugador = new Jugador { Nombre = nombre, TiempoSegundos = tiempo };
-    ranking.Add(jugador);
-
-    // Ordenar ranking por tiempo ascendente
-    var rankingOrdenado = ranking.OrderBy(j => j.TiempoSegundos).ToList();
-
-    // Encontrar el puesto del jugador actual
-    int puesto = rankingOrdenado.FindIndex(j => j.Nombre == nombre && j.TiempoSegundos == tiempo) + 1;
-
-    // Formatear tiempo en mm:ss para mostrar
-    string tiempoFormateado = $"{tiempo / 60:D2}:{tiempo % 60:D2}";
-
-    // Pasar datos a la vista
-    ViewBag.Nombre = nombre;
-    ViewBag.Tiempo = tiempoFormateado;
-    ViewBag.Puesto = puesto;
-    ViewBag.Ranking = rankingOrdenado;
-
-    return View("Resultado");
-}
-
     
 }
