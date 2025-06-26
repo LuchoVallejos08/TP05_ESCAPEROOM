@@ -44,7 +44,7 @@ public class HomeController : Controller
         if(ok==false){
             ViewBag.MensajeError="INCORRECTO, REINTENTELO";
         }
-        else if (Sala.numeroSala == 4)
+        else if (Sala.numeroSala == 7)
         {
         return RedirectToAction("Rankear");
         }

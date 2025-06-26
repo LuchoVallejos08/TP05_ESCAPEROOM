@@ -148,15 +148,34 @@ p{
 .sala4 form{
   background-color: rgb(204, 204, 204);
   text-align: center;
-  width: 26.7%;
+  width: 28%;
   border-radius: 10px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+padding: 0.7%;
   margin-left: 37%;
  
 }
 
 
+.Sala5 {
+  background-image: url('../imagenes/MisterioPrincipal.png');
+  background-size: cover;
+  padding: 20%;
+}
+.Sala5 p {
+color: white;
+margin-top: 10%;
+}
+.Sala6 {
+padding: 10%;
+ background-image: url('../imagenes/VenomCorrecta.png');
+background-size:cover;
+}
+.textoform p {
+
+
+  color: white ;
+ 
+  }
 
 
 footer {
@@ -165,3 +184,58 @@ footer {
   background-color: #f8f9fa;
   border-top: 1px solid #e9ecef;
 }
+
+.sala3 h1{
+  background-color: rgb(211, 201, 108);
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+
+.sala4 h1{
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  background-color: rgb(204, 204, 204);
+  border-radius: 10px;
+  padding: 1%;
+}
+
+.sala2{
+background-image: url(../imagenes/laboratorio.png);
+}
+
+
+.sala2 h1{
+  width: 69%;
+  margin-left: 15.5%;
+  background-color: rgb(80, 63, 18);
+  color: #fff;
+  padding: 2px;
+  padding-right: 2px;
+  border-radius: 3px;
+}
+
+
+.sala2 iframe{
+  width: 50%;
+  height: 700px;
+  margin-left: 25%;
+}
+
+
+.sala2 form {
+ 
+  width: 20%;
+  background-color: rgb(80, 63, 18);
+  margin-left: 40%;
+  padding: 1%;
+  color: #fff;}
+
+
+  .Imagenvenom {
+    background-color: white;
+    }
+    

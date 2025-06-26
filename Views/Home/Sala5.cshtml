@@ -1,11 +1,12 @@
-<div class="Sala5">
 <p>USTED ESTÁ EN LA SALA @ViewBag.salaActual</p>
-
-<h1>click en el boton de abajo para ver el acertijo para pasar a la siguiente sala!</h1>
+<div class="Sala5">
+<p>click en el boton de abajo para ver el acertijo para pasar a la siguiente sala!</p>
 <!-- Button trigger modal -->
   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-    Click aqui para ver el acertijo!
+    Click aqui para ver el acertijo
   </button>
+
+
   <!-- Modal -->
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -17,14 +18,14 @@
         <form action = '@Url.Action("ResolverSala", "Home")' method = "post">
           <div class="modal-body">
               escriba en el formulario a,b o c dependiendo de que imagen eligieron (a es la primera. b la segunda y C la tercera).
-              Contraseña: <input type="text" name="Respuesta">
+              Contraseña: <input type="text" name="codigo">
               <img src="/imagenes/MisterioIncorrecta.png" alt="Opcion a"/>
               <img src="/imagenes/MisterioCorrecta2.png" alt="opcion b"/>
               <img src="/imagenes/MisterioIncorrecta.png" alt="opcion c"/>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="submit" class="btn btn-primary" value="Enviar Respuesta">
+            <input button type="submit" class="btn btn-primary" value="Enviar Respuesta">
           </div>
         </form>
       </div>

@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\imagenes\\VenomPrincipal.png"
     },
     {
+      "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\acertijo morsefalso TERMINADO.png",
+      "PackagePath": "staticwebassets\\imagenes\\acertijo morsefalso TERMINADO.png"
+    },
+    {
       "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\arena.jpg",
       "PackagePath": "staticwebassets\\imagenes\\arena.jpg"
     },
@@ -79,6 +83,10 @@
     {
       "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\imagen.webp",
       "PackagePath": "staticwebassets\\imagenes\\imagen.webp"
+    },
+    {
+      "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\laboratorio.png",
+      "PackagePath": "staticwebassets\\imagenes\\laboratorio.png"
     },
     {
       "Id": "C:\\Users\\49627257\\TP05_ESCAPEROOM\\wwwroot\\imagenes\\normanosborncorrecto.jpg",
