@@ -1,0 +1,297 @@
+html {
+  font-size: 14px;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+.INDEX {
+  background-image: url('../imagenes/spiderman_inicio.webp');
+  background-size: cover;
+}
+
+h3{
+  color: white !important;
+  text-align: center;
+}
+
+p{
+  background-color: white;
+  text-align: center;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+.sala1 {
+  background-image: url('/imagenes/fondoSala1.jpeg');
+  background-size: cover;
+}
+.sala1 h1{
+  color: white;
+  text-shadow: 2px 0 #3cff00, -2px 0 #3cff00, 0 2px #3cff00, 0 -2px #3cff00,
+  1px 1px #3cff00, -1px -1px #3cff00, 1px -1px #3cff00, -1px 1px #3cff00;
+  text-align: center;
+}
+.sala1 h2{
+  color: #3cff00;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+  1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+  text-align: center;
+
+}
+
+.sala1 b{
+  font-weight: 799;
+}
+
+.sala1 img{
+  width: 8%;
+
+}
+.sala1 img:hover{
+  box-shadow: 1px 1px 1px rgb(37, 37, 37);
+  border: none;
+}
+.sala1 form{
+  margin-top: 0%;
+  margin-bottom: 0%; 
+  margin-left: 42%; 
+  color: white;
+  font-weight: 600;
+}
+.O{
+  margin-left: 28%;
+  margin-top: 15%;
+}
+.H{
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.N{
+  margin-top: -10%;
+}
+
+
+
+.sala3 iframe{
+  width: 80%;
+  height: 700px;
+  margin-left: 10%;
+}
+
+
+.sala3 form{
+  margin-left: 33%;
+  margin-bottom: 3%;
+  background-color: rgb(211, 201, 108);
+  width: 34%;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+
+.sala3{
+  background-image: url(../imagenes/arena.jpg);
+}
+
+
+.sala4{
+  background-image: url(../imagenes/rayos.jfif);
+  background-position: 100%;
+}
+
+
+.sala4 iframe{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+
+
+.sala4 form{
+  background-color: rgb(204, 204, 204);
+  text-align: center;
+  width: 28%;
+  border-radius: 10px;
+padding: 0.7%;
+  margin-left: 37%;
+ 
+}
+
+
+.Sala5 {
+  background-image: url('../imagenes/MisterioPrincipal.png');
+  background-size: cover;
+  padding: 20%;
+}
+.Sala5 p {
+color: white;
+margin-top: 10%;
+}
+.Sala6 {
+padding: 10%;
+ background-image: url('../imagenes/VenomCorrecta.png');
+background-size:cover;
+}
+.textoform p {
+
+
+  color: white ;
+ 
+  }
+
+
+
+footer {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+.sala3 h1{
+  background-color: rgb(211, 201, 108);
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+
+.sala4 h1{
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  background-color: rgb(204, 204, 204);
+  border-radius: 10px;
+  padding: 1%;
+}
+
+.sala2{
+background-image: url(../imagenes/laboratorio.png);
+}
+
+
+.sala2 h1{
+  width: 69%;
+  margin-left: 15.5%;
+  background-color: rgb(80, 63, 18);
+  color: #fff;
+  padding: 2px;
+  padding-right: 2px;
+  border-radius: 3px;
+}
+
+
+
+.sala2 iframe{
+  width: 50%;
+  height: 700px;
+  margin-left: 25%;
+}
+
+
+.sala2 form {
+ 
+  width: 20%;
+  background-color: rgb(80, 63, 18);
+  margin-left: 40%;
+  padding: 1%;
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+  .Imagenvenom {
+    background-color: white;
+    }
+    
+
+
+.resultado {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #000; /* fondo negro */
+      color: #fff;       /* texto blanco */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+  
+    .resultado h1 {
+      margin-bottom: 30px;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      color: #0c77c3; /* celeste principal */
+      text-transform: uppercase;
+      -webkit-text-stroke: 1px #cf1b11;
+      font-weight: 900;
+
+  }
+  
+  .resultado table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 600px;
+      box-shadow: 20px 20px 20px rgba(12, 119, 195, 0.3); /* sombra celeste suave */
+      background: #111;
+      border-radius: 10px;
+      overflow: hidden;
+  }
+  
+  .resultado thead tr {
+      background-color: #0c77c3; /* celeste */
+      color: #000;               /* texto negro */
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+  
+  .resultado th, td {
+      padding: 15px 20px;
+      text-align: center;
+      border-bottom: 1px solid #333;
+  }
+  
+  .resultado tbody tr:nth-child(even) {
+      background-color: #1a1a1a;
+  }
+  
+  .resultado tbody tr:hover {
+      background-color: #0f5c92; /* celeste hover */
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  .resultado a.btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 12px 30px;
+      background-color: #cf1b11; /* rojo */
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: background-color 0.3s ease;
+  }
+  
+  .resultado a.btn:hover {
+      background-color: #a7140c; /* rojo hover */
+      color: #fff;
+  }
+  
