@@ -1,4 +1,3 @@
-<p>USTED ESTÁ EN LA SALA @ViewBag.salaActual</p>
 <div class="Sala5">
 <p>click en el boton de abajo para ver el acertijo para pasar a la siguiente sala!</p>
 <!-- Button trigger modal -->
@@ -17,18 +16,17 @@
         </div>
         <form action = '@Url.Action("ResolverSala", "Home")' method = "post">
           <div class="modal-body">
-              escriba en el formulario a,b o c dependiendo de que imagen eligieron (a es la primera. b la segunda y C la tercera).
-              Contraseña: <input type="text" name="codigo">
-              <img src="/imagenes/MisterioIncorrecta.png" alt="Opcion a"/>
-              <img src="/imagenes/MisterioCorrecta2.png" alt="opcion b"/>
-              <img src="/imagenes/MisterioIncorrecta.png" alt="opcion c"/>
+              elegir la imagen correcta, hay 2 imagenes editadas.
+               <input type="text" name="codigo">
+              <div class="imagenes-acertijo">
+    <img src="/imagenes/MisterioIncorrecta.png" alt="Opcion a"/>
+    <img src="/imagenes/MisterioCorrecta2.png" alt="opcion b"/>
+    <img src="/imagenes/MisterioIncorrecta.png" alt="opcion c"/>
+  </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             <input button type="submit" class="btn btn-primary" value="Enviar Respuesta">
-          </div>
         </form>
       </div>
-    </div>
-  </div>
 </div>

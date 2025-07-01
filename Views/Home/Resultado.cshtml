@@ -1,11 +1,29 @@
+<body class="resultado">
+    <h1>Leaderboard</h1>
 
-@{
-    int i = 1;
-@foreach(Jugador jugador in Ranking.Leaderboard){
-    <h2> @i: @jugador.nombre</h2>
-    i += i;
-}
-    
-}
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Tiempo (segundos)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int i = 1;
+                foreach(Jugador jugador in Ranking.Leaderboard)
+                {
+                    <tr>
+                        <td>@i</td>
+                        <td>@jugador.nombre</td>
+                        <td>@jugador.tiempo.ToString("F2")</td>
+                    </tr>
+                    i++;
+                }
+            }
+        </tbody>
+    </table>
 
-<a href = '@Url.Action("Index","Home")'> VOLVER A JUGAR</a>
+    <a href='@Url.Action("Index","Home")' class="btn">VOLVER A JUGAR</a>
+</body>

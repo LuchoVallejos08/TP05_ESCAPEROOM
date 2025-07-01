@@ -88,28 +88,6 @@ p{
 
 
 
-.sala2 iframe{
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .sala3 iframe{
   width: 80%;
   height: 700px;
@@ -178,6 +156,7 @@ background-size:cover;
   }
 
 
+
 footer {
   margin-top: 10px;
   padding: 10px;
@@ -219,6 +198,7 @@ background-image: url(../imagenes/laboratorio.png);
 }
 
 
+
 .sala2 iframe{
   width: 50%;
   height: 700px;
@@ -232,10 +212,86 @@ background-image: url(../imagenes/laboratorio.png);
   background-color: rgb(80, 63, 18);
   margin-left: 40%;
   padding: 1%;
-  color: #fff;}
+  color: #fff;
+  border-radius: 5px;
+}
 
 
   .Imagenvenom {
     background-color: white;
     }
     
+
+
+.resultado {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #000; /* fondo negro */
+      color: #fff;       /* texto blanco */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+  
+    .resultado h1 {
+      margin-bottom: 30px;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      color: #0c77c3; /* celeste principal */
+      text-transform: uppercase;
+      -webkit-text-stroke: 1px #cf1b11;
+      font-weight: 900;
+
+  }
+  
+  .resultado table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 600px;
+      box-shadow: 20px 20px 20px rgba(12, 119, 195, 0.3); /* sombra celeste suave */
+      background: #111;
+      border-radius: 10px;
+      overflow: hidden;
+  }
+  
+  .resultado thead tr {
+      background-color: #0c77c3; /* celeste */
+      color: #000;               /* texto negro */
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+  
+  .resultado th, td {
+      padding: 15px 20px;
+      text-align: center;
+      border-bottom: 1px solid #333;
+  }
+  
+  .resultado tbody tr:nth-child(even) {
+      background-color: #1a1a1a;
+  }
+  
+  .resultado tbody tr:hover {
+      background-color: #0f5c92; /* celeste hover */
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  .resultado a.btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 12px 30px;
+      background-color: #cf1b11; /* rojo */
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: background-color 0.3s ease;
+  }
+  
+  .resultado a.btn:hover {
+      background-color: #a7140c; /* rojo hover */
+      color: #fff;
+  }
+  
