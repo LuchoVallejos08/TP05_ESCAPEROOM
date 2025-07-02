@@ -8,8 +8,9 @@
     <h1>Spiderman fue a Central Park debido a una serie de misteriosos eventos relacionados con la electricidad. Algo no parece estar bien...</h1>
     <iframe allow="fullscreen; autoplay;" allowfullscreen width="795" height="690" frameborder="0" src="https://es.educaplay.com/juego/24370125-spider_man_vs_electro.html"></iframe>
     <form action='@Url.Action("ResolverSala","Home")' method="post">
-    ¿Quien es el villano de esta sala? : <input type ="text" name ="codigo">
-    <input type="submit" value = "Enviar">
+    <input type="text" name="fake-field" style="display:none">
+    ¿Quien es el villano de esta sala? : 
+    <input type="text" name="codigo" id="codigo" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');">
     </form>
        <h3>@ViewBag.MensajeError</h3>
 </main>

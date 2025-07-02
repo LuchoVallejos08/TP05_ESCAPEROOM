@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP05_EscapeRoomSpiderman")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd16c592cbb1c7830c7a796f125e46ca4177f07d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85112a999614dd50f6b40ce6289c02fabfe82676")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP05_EscapeRoomSpiderman")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP05_EscapeRoomSpiderman")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

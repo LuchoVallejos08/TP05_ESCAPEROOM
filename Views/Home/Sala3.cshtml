@@ -6,8 +6,11 @@
     <h1>Sandman le hizo una TRAMPA a Spiderman y lo encerro en una cupula de arena, Nuestro heroe debe recordar el patron de ataque de Sandman para escapar.</h1>
     <iframe style="max-width:100%" src="https://wordwall.net/es/embed/d518af50f5df47e289611b925d5dee1a?themeId=65&templateId=25&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
     <form action='@Url.Action("ResolverSala","Home")' method="post">
-    ¿Cuantas veces aparece Sandman en este juego? <input type ="text" name ="codigo">
-    <input type="submit" value = "Enviar">
+    <input type="text" name="fake-field" style="display:none">
+    ¿Cuantas veces aparece Sandman en este juego?     
+    <input type="text" name="codigo" id="codigo" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');">
+
+    <input type="submit" value = "Enviar" autocomplete="new-password">
     </form>
        <h3>@ViewBag.MensajeError</h3>
 </main>

@@ -16,8 +16,9 @@
         </div>
         <form action = '@Url.Action("ResolverSala", "Home")' method = "post">
           <div class="modal-body">
+              <input type="text" name="fake-field" style="display:none">
               elegir la imagen correcta, hay 2 imagenes editadas.
-               <input type="text" name="codigo">
+    <input type="text" name="codigo" id="codigo" autocomplete="off" readonly onfocus="this.removeAttribute('readonly');">
               <div class="imagenes-acertijo">
     <h2>a:<img src="/imagenes/MisterioIncorrecta.png" alt="Opcion a"/></h2>
     <h2>b:<img src="/imagenes/MisterioCorrecta2.png" alt="opcion b"/></h2>
